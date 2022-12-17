@@ -301,7 +301,7 @@ if PlayersIngame > 1 then -- if more then one then waits for link
 
 
     game.StarterGui:SetCore("ChatMakeSystemMessage", {
-        Text = "Doors Hard Mode ON! By MuhammadGames (MuhammadGames#0017) and Volta (volta#2161)",
+        Text = "Doors Hard Mode trial ON! By MuhammadGames (MuhammadGames#0017) , Volta (volta#2161 and tizah tizah#8121 trial maker)",
         Color = Color3.fromRGB(255, 0, 0),
         Font = Enum.Font.SourceSansBold,
         TextSize = 18,
@@ -452,9 +452,9 @@ end
 
                 -- Create entity
                 local entity = Creator.createEntity({
-                    CustomName = "Smiler", -- Custom name of your entity
-                    Model = "https://github.com/PABMAXICHAC/doors-monsters-models/blob/main/Smiler.rbxm?raw=true", -- Can be GitHub file or rbxassetid
-                    Speed = 850, -- Percentage, 100 = default Rush speed
+                    CustomName = "smiley", -- Custom name of your entity
+                    Model = https://github.com/PABMAXICHAC/doors-monsters-models/blob/main/Smiley.rbxm", -- Can be GitHub file or rbxassetid
+                    Speed = 859, -- Percentage, 110 = default Rush speed
                     DelayTime = 12, -- Time before starting cycles (seconds)
                     HeightOffset = 1,
                     CanKill = true,
@@ -467,7 +467,7 @@ end
                     Cycles = {
                         Min = 5,
                         Max = 5,
-                        WaitTime = 0.3,
+                        WaitTime = 0.4,
                     },
                     CamShake = {
                         true, -- Enabled
@@ -499,7 +499,7 @@ end
                             },
                         },
                     },
-                    CustomDialog = {"¡¡ THIS SMILE IS LIKE AMBUSH !!", "Hide and don't Smile", "Don't get Tricked"}, -- Custom death message (can be as long as you want)
+                    CustomDialog = {"¡¡ THIS SMILEY IS LIKE AMBUSH !!", "Hide and don't Smile", "Don't get Tricked"}, "THIS IS TRIAL GET A REAL ONE O GET SMILE"} -- Custom death message (can be as long as you want)
                 })
 
                 -----[[ Advanced ]]-----
