@@ -34,10 +34,10 @@ local Depth = {
     id = 3,
 }
 
-local Smiles = {
-    Title = "Income The Frowners",
-    Desc = "Stop Smiling",
-    Reason = "Encounter and Survive Smiler",
+local Smiley = {
+    Title = "truth has come",
+    Desc = "survived the weird smiling png",
+    Reason = "Encounter and Survive Smiley",
     Image = "https://tr.rbxcdn.com/74de4e7b5e39c15126ca858f0ad19c80/420/420/Image/Png",
     id = 4,
 }
@@ -122,8 +122,8 @@ local SelfModules = {
 
 
 
-local ModName = "HardCore"
-local foldername = "AchievementsSaves   By Muhammadgames,Helped by RegularVynixu"
+local ModName = "HardCore trial"
+local foldername = "AchievementsSaves   By Muhammadgames,Helped by RegularVynixua and tizah"
 local Slipt = string.split(foldername,"|")
 local valid2 = isfolder(foldername)
 if not valid2 then
@@ -452,9 +452,9 @@ end
 
                 -- Create entity
                 local entity = Creator.createEntity({
-                    CustomName = "Smiler", -- Custom name of your entity
-                    Model = "https://github.com/PABMAXICHAC/doors-monsters-models/blob/main/Smiler.rbxm?raw=true", -- Can be GitHub file or rbxassetid
-                    Speed = 850, -- Percentage, 100 = default Rush speed
+                    CustomName = "Smiley", -- Custom name of your entity
+                    Model = "https://github.com/PABMAXICHAC/doors-monsters-models/blob/main/Smiley.rbxm", -- Can be GitHub file or rbxassetid
+                    Speed = 851, -- Percentage, 200 = default Rush speed
                     DelayTime = 12, -- Time before starting cycles (seconds)
                     HeightOffset = 1,
                     CanKill = true,
@@ -499,7 +499,7 @@ end
                             },
                         },
                     },
-                    CustomDialog = {"¡¡ THIS SMILE IS LIKE AMBUSH !!", "Hide and don't Smile", "Don't get Tricked"}, -- Custom death message (can be as long as you want)
+                    CustomDialog = {"¡¡ THIS SMILEy IS LIKE AMBUSH !!", "Hide and don't Smile", "Don't get Tricked"}, "THIS IS TRIAL YOU GET SMILER but its smileyy cuz its trial if -- Custom death message (can be as long as you want)
                 })
 
                 -----[[ Advanced ]]-----
